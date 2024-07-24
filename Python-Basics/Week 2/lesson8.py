@@ -14,10 +14,10 @@ temperature = input("What's the temperature outside? ")
 temperature = int(temperature)
 
 if temperature > 30: 
-  print("It's warm")
+    print("It's warm")
 elif temperature >= 20:
-  print("It's nice")
+    print("It's nice")
 elif temperature >= 10:
-  print("It's chilly")
+    print("It's chilly")
 else:
-  print("It's cold")
+    print("It's cold")
