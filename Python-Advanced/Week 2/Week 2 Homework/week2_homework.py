@@ -4,7 +4,7 @@
 """
 import csv
 
-with open("customers.csv", mode = "r") as file:
+with open("customers_w2.csv", mode = "r") as file:
     customers_reader = csv.reader(file)
 
     for customer in customers_reader:
