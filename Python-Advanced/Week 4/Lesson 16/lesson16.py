@@ -10,7 +10,7 @@ temperatures[3] = 9
 print(temperatures[3])
 
 # Add a temperature to the list
-temperatures.append(17)
+temperatures.append(19)
 
 # Print the the newly added item
 print(temperatures[4])
@@ -26,10 +26,13 @@ forecast = {
 print(forecast)
 
 # Modify Wednesdays temperature to 25 and Sunny
-forecast["Wednesday"][temperature] = 23
+forecast['Wednesday']['temperature'] = 25
 
 # Print Wednedays temperature
+print(forecast['Wednesday']['temperature'])
 
 # Add forecast for Friday, 27, Cloudy
+forecast["Friday"] = {"temperature": 27, "condition": "Cloudy"}
 
 # Print Friday temperature such as "Friday's temperature will be 27 degrees and cloudy
+print(f"Friday's temperature will be {forecast["Friday"]["temperature"]} degress and {forecast['Friday']['condition'].lower()}")
